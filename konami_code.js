@@ -17,10 +17,10 @@ function Konami(e) {
 }
  
 function init() {
-{
-  const bod = document.getElementById('body');
+  const bod = document.getElementsByTagName('body')[0];
   bod.addEventListener('keydown', Konami) ;
 }
 
 init();
+
 
